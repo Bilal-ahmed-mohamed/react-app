@@ -1,0 +1,630 @@
+*{
+    margin:0;
+    padding:0;
+} 
+
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+   
+}
+button:hover{
+    background: #8bf6ff;
+    outline: none;
+    border: none;
+}
+
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,232,1) 100%);
+    max-width:100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.logo{
+    display: flex;
+    width:10%;
+    margin-left: 30px;
+    /* background-color:greenyellow; */
+}
+.logo h3{
+    text-transform: uppercase;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    /* background-color:palegoldenrod; */
+    width: 45%;
+    
+}
+.nav-links li{
+    list-style: none; 
+}
+.nav-links li a{
+    text-decoration: none;
+}
+.nav-links li a:hover{
+    color:#8bf6ff;
+}
+.signup-area{
+    /* background:yellowgreen; */
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+.signup-area li{
+    list-style: none; 
+}
+.signup-area li a{
+    text-decoration: none;
+}
+.signup-area li a:hover{
+    color:#8bf6ff;
+}
+.signup-area button{
+    margin-right: 10px;
+    width: 120px;
+    height: 32px;
+    background: none;
+    border-radius: 10px;
+    
+    
+}
+.signup-area button:hover{
+  background: #8bf6ff;
+}
+
+.hero-area{
+    max-width: 100%;
+    height: 500px;
+/*     border: 1px solid rgb(250, 249, 249); */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+    
+}
+.hero-abt{
+    width: 50%;
+    height: 80vh;
+    background:white;
+    background: transparent;
+    position: relative;
+    
+ 
+}
+.hero-abt h1{
+ 
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.hero-abt p{
+   text-align: justify;
+   display: flex;
+   justify-content: center;
+   line-height: 40px;
+}/* 
+.hero-img{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+} */
+.read-more{
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    width: 100px;
+    height: 50px;  
+}
+.read-more:hover{
+    background:#8bf6ff;
+    border: none;
+}
+.hero-img{
+    width: 50%;
+    height: 80vh;
+    
+}
+.hero-img img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+h1{
+    font-size:20px;
+    
+    
+}
+.services{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+/*     border: 1px solid yellow; */
+
+   
+}
+.card-details{
+    max-width: 350px;
+    height: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    
+}
+.card-details img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    padding:0 0 10px 0;
+}
+.card-details span{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    
+ 
+    
+}
+.card-details article {
+     
+    padding: 20px 0 0 0;
+     
+
+}
+.card-details article li{
+    list-style: none;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts{
+    width: 100%;
+    height: 500px;
+/*     border: 1px solid red;  */
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.contacts-content{
+  width: 800px;
+  /* border: 3px solid brown;  */
+  background: white;
+  border-radius: 20px;
+}
+.contacts-content h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.contacts-content p{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.contacts-content form{
+  
+    margin: auto;
+    height: 380px;
+    width: 500px;
+/*      border: 1px solid palevioletred; */ 
+    position: relative;
+   
+}
+.contacts-content form h3{
+ text-align: center;    
+}
+.contacts-content form input{
+    border: 1px solid #8bf6ff;
+    outline: none;
+    width: 300px;
+    background: none;
+}
+.contacts-content form label{
+ display: flex;
+ align-items: center;
+}
+
+.name{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: space-between;
+}
+.mail{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+/*     border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+}
+.message{
+    width: 100%;
+    position: absolute;
+    top: 150px;
+/*     border: 1px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.message textarea{
+    width: 300px;
+    background: none;
+    outline: none;
+    border: 1px solid #8bf6ff;
+}
+.contacts-content form button{
+    position: absolute;
+    top: 330px ;
+    left: 200px;
+    width: 100px;
+    height: 35px;
+   
+}
+.contacts-content form button:hover{
+    background:#8bf6ff;
+    border: none;
+}
+.footer{
+    width: 100%;
+    height:200px;
+
+}
+.footer p{
+    line-height: 30px;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}
+.footer-socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.signup{
+    width: 100%;
+    height: 90vh;
+    border: 1px solid gold;
+    display: flex;
+    justify-content: center;
+}
+.signup form{
+    width: 550px;
+    height: 500px;
+    background: yellowgreen;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signup form h1{
+    text-align: center;
+}
+.name-signup{
+/*  background: darkgoldenrod; */
+ width: 100%;
+ height: 70px;
+ position: relative;
+ top: 50px;
+
+}
+input{
+    width: 230px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.name-signup-span1{
+    position: relative;
+}
+.name-signup-label1{
+    position: absolute;
+    left: 20px;
+}
+.name-signup-input1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.name-signup-span2{
+    position: relative;
+}
+
+.name-signup-label2{
+    position: absolute;
+    left: 300px;
+}
+.name-signup-input2{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.email-signup{
+/*     background: slategray; */
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 80px;
+}
+.email-signup-span1{
+    position: relative;
+}
+.email-signup-label1{
+    position: absolute;
+    left: 20px;
+}
+.email-signup-input1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.email-signup-span2{
+    position: relative;
+}
+
+.email-signup-label2{
+    position: absolute;
+    left: 300px;
+}
+.email-signup-input2{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.password-signup{
+/*     background: rgb(7, 125, 243); */
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 30px;
+}
+.password-signup-span1{
+    position: relative;
+}
+.password-signup-label1{
+    position: absolute;
+    left: 20px;
+}
+.password-signup-input1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.password-signup-span2{
+    position: relative;
+}
+
+.password-signup-label2{
+    position: absolute;
+    left: 300px;
+    white-space: nowrap;
+}
+.password-signup-input2{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.create-button{
+    position: relative;
+}
+.create-button button{
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    width: 150px;
+}
+.alrdy-account{
+    position: relative;
+}
+.alrdy-account h3{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+
+}
+.login{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.login h1{
+
+    position: absolute;
+    top: 30px;
+    left: 220px;
+}
+.login form{
+    background: white;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+}
+.login-email{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+}
+.login-email-label{
+    width: 100%;
+    text-align: center;
+}
+.login-email-input{
+    width: 100%;
+    border: 1px solid #8bf6ff;
+
+}
+.login-password{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: 170px;
+}
+.login-password-label{
+    text-align: center;
+    width: 100%;
+}
+.login-password-input{
+    width: 100%;
+    border: 1px solid #8bf6ff;
+}
+.login-button{
+    position: relative;
+}
+.login-button button{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    width: 200px;
+}
+.alrdy-account{
+    position: relative;
+}
+.no-account h3{
+    position: absolute;
+    top: 330px;
+    left: 100px;
+}
+
+                                 /* booking page csss */
+.bookonline-form{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.bookonline-form form{
+    width: 700px;
+    height: 600px;
+    background: seagreen;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.personal-details{
+    width: 100%;
+    height: 70px;
+  /*   background: rosybrown; */
+    display: flex;
+  
+}
+.name-area{
+    width: 50%;
+ /*    background: magenta; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.email-area{
+    width: 50%;
+ /*    background: rgb(17, 17, 17); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.appointment-details{
+    width: 100%;
+    height: 70px;
+/*     background: rgb(4, 240, 23); */
+    display: flex;
+}
+.date-area{
+    width: 50%;
+/*     background: lightslategrey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.time-area{
+    width: 50%;
+/*     background: peru; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information-details{
+    width: 100%;
+    height: 70px;
+/*     background: rgb(235, 10, 235); */
+    display: flex;
+}
+.phone-area{
+    width: 50%;
+/*     background: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.address-area{
+    width: 50%;
+/*     background: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service-details{
+/*     background: gold; */
+    width: 100%;
+    height: 70px;
+   display: flex;
+   justify-content: center;
+}
+.label-service{
+    width: 50%;
+/*     background: lightseagreen; */
+}
+.select-service{
+    width: 50%;
+/*     background: violet; */
+}
+.message-details{
+/*     background: aquamarine; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.submit-btn{
+    text-align: center;
+    
+}
+.submit-btn button{
+    width: 150px;
+}

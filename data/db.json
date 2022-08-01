@@ -1,0 +1,42 @@
+{
+    "services" : [
+        {
+            "title" : "HAIR CARE",
+            "body" : "  We Offer the Following :  Haircuts & Styling , Perm & ConditioningColor ",
+            "image" : "/Images/pexels-engin-akyurt-3065209.jpg",
+            "id" : 1
+
+        },
+        {
+            "title" : "MANICURE",
+            "body" : "We Offer the Following : fillinng,clipping,fingernail polish",
+            "image" : "/Images/pexels-cottonbro-3997374.jpg",
+            "id" : 2
+        },
+        {
+            "title" : "PEDICURE",
+            "body" : " We Offer the Following : foot soaking,  nail clipping , nail shaping ",
+            "image" : "/Images/pexels-nico-becker-5619466.jpg",
+            "id" : 3
+        },
+        {
+            "title" : "FACIAL",
+            "body" : "We Offer the Following : classic facial, basic cleanup facial, acne reduction facial",
+            "image" : "/Images/pexels-john-tekeridis-3212179.jpg",
+            "id" : 4
+        },
+        {
+            "title" : "MAKEUP SERVICES",
+            "body" : "We Offer the Following : event makeup , wedding makeup",
+            "image" : "/Images/pexels-jhong-pascua-3018845.jpg",
+            "id" : 5
+        },
+        {
+            "title" : "MASSAGE",
+            "body" : "We Offer the Following : Swedish Massage,Chair Massage,Foot Massage",
+            "image" : "/Images/pexels-andrea-piacquadio-3764568.jpg",
+            "id" : 6
+        }
+
+    ]
+}

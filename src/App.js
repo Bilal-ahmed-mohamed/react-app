@@ -26,7 +26,7 @@ function App() {
 
   
      useEffect(() => {
-        fetch(' http://localhost:8000/services')
+        fetch('http://localhost:3900/services')
         .then(res => {
           return  res.json()
         }) 
